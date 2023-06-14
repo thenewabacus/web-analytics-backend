@@ -13,6 +13,12 @@ app.get('/', (req, res) => {
   const indexPath = path.join(__dirname, 'public/index.html');
   res.sendFile(indexPath);
 });
+
+app.get('/logo', (req, res) => {
+  const indexPath = path.join(__dirname, 'public/logo.png');
+  res.sendFile(indexPath);
+});
+
 app.use(countHits)
 
 app.use((req, res, next) => {

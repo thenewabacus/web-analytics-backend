@@ -14,3 +14,6 @@ timestamp, ip, device, browser, location, url, method
 will be stored in database to keep track of users
 
 [Demo](http://www.thenewabacus.com)
+
+- nodejs/express
+- postgres 
