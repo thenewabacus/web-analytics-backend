@@ -4,7 +4,11 @@ Coming Soon is a simplistic, animated and responsive "coming soon" page.
 
 - HTML and CSS
 - Multi-Browser Support (Up to Date Major Browsers)
-- Responsive Design
+- Responsive Desig
 
 [Demo](http://yc.github.io/coming-soon/)
-<img src="index.svg" width="960" height="540" />
+
+
+I have added simple engagement tracking, when a user visits the website, 
+timestamp, ip, device, browser, location, url, method
+will be stored in database to keep track of users
